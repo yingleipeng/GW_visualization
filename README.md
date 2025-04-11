@@ -8,3 +8,6 @@ E must be less than 0 for a bound orbit, nu must be within the interval (0, 1/4]
 determined by the ellipticity of the orbit. 
 
 This takes a while to run since the animation is a bit large
+
+In animate_orbit function, change the line "mpl.rcParams['animation.embed_limit'] = 100" to control allowable
+animation size. Set to 100 MB max size currently.
